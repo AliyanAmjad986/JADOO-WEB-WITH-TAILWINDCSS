@@ -1,0 +1,62 @@
+*{
+
+/* border: 1px solid black; */
+}
+
+.move{
+    animation: aminatein 5000ms cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+   
+}
+@keyframes aminatein {
+    to{
+        transform: translateX(0px);
+    }
+    from{
+        transform: translateX(100px)
+    }
+}
+.firstcommentmove{
+    animation: firstcommentanim 5000ms cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+   
+}
+@keyframes firstcommentanim {
+    to{
+        transform: translateX(0px);
+    }
+    from{
+        transform: translateY(100px)
+    }
+}
+.secondcommentmove{
+    animation: secondcommentanim 5000ms cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+   
+}
+@keyframes secondcommentanim {
+    to{
+        transform: translateY(0px);
+    }
+    from{
+        transform: translateY(-100px)
+    }
+}
+
+.companymove{
+    animation: companyanim 50ms cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+  
+}
+@keyframes companyanim {
+    to{
+        /* transform: perspective(0px); */
+        /* transform:scaleX(1); */
+        transform: scale3d(1.5,1.5,1.5);
+        /* transform: translateZ(100px); */
+    }
+    from{
+ 
+        /* transform: scaleX(0); */
+        transform: scale3d(0,0,0);
+        /* transform: perspective(400px); */
+        /* transform: translateZ(0px); */
+    }
+}
+
