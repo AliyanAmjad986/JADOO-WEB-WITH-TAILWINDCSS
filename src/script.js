@@ -122,8 +122,7 @@ tripcard.addEventListener('mouseout', ()=>{
 
 let heartover = document.getElementById('heartover');
 heartover.style.visibility = "hidden";
- 
-
+ heartover.style.display = "none";
 function animateBox() {
      document.getElementById("heartover").classList.add("move");
      heartover.classList.remove("move");
@@ -132,7 +131,8 @@ function animateBox() {
     heartover.classList.add("move");
     heartover.style.height ="fit-content";
     heartover.style.width = "60%";
- 
+  heartover.style.opacity = "1";
+   heartover.style.display = "block";
 }
 
 function animateBoxout() {
@@ -142,7 +142,7 @@ function animateBoxout() {
     void heartover.offsetWidth;
     heartover.style.height ="0px";
     heartover.style.width = "0px";
-  
+  heartover.style.display = "none";
  
 }
 let upperarrow = document.getElementById('upperarrow');

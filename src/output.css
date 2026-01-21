@@ -802,12 +802,20 @@ video {
   margin-right: 2.5rem;
 }
 
+.block {
+  display: block;
+}
+
 .flex {
   display: flex;
 }
 
 .grid {
   display: grid;
+}
+
+.contents {
+  display: contents;
 }
 
 .hidden {
@@ -913,6 +921,10 @@ video {
 
 .h-\[90px\] {
   height: 90px;
+}
+
+.h-\[0px\] {
+  height: 0px;
 }
 
 .w-2 {

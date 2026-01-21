@@ -3,8 +3,10 @@
 /* border: 1px solid black; */
 }
 
+
 .move{
     animation: aminatein 5000ms cubic-bezier(0.075, 0.82, 0.165, 1) forwards;
+   
    
 }
 @keyframes aminatein {
